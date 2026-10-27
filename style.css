@@ -85,7 +85,7 @@ body {
     max-height: 380px;
     width: 100%;
     max-width: 380px;
-    border-radius: 200px 200px 20px 20px; /* Borda em formato de arco */
+    border-radius: 200px 200px 20px 20px;
     object-fit: cover;
     box-shadow: 0 15px 30px rgba(0,0,0,0.4);
 }
@@ -105,7 +105,7 @@ body {
     color: #1f1a17 !important;
 }
 
-/* --- SEÇÃO DE CATEGORIAS --- */
+/* --- CATEGORIAS --- */
 .categories-section {
     background-color: #f8f6f0;
     padding-top: 50px;
@@ -158,7 +158,6 @@ body {
     font-size: 26px;
 }
 
-/* Quando passar o mouse, podemos mudar a cor do emoji/ícone se quiser, mas o fundo já destaca bastante */
 .category-name {
     font-size: 14px;
     font-weight: 500;
