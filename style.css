@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f6f0; 
+    color: #2c221e; 
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 50px; 
+    background-color: #f8f6f0;
+    border-bottom: 1px solid #eae5db; 
+}
+
+.logo-area img {
+    height: 50px; 
+    width: auto;
+    display: block;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #332d29;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #8c5830;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-icons a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #332d29;
+    transition: transform 0.2s ease;
+}
+
+.header-icons a:hover {
+    transform: scale(1.1);
+}
+
+/* --- SEÇÃO HERO --- */
+.hero-section {
+    background-color: #1f1a17; 
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text h1 {
+    color: #ffffff !important;
+    font-family: 'Georgia', serif;
+}
+
+.hero-text p {
+    color: #e0d8d0 !important;
+}
+
+.hero-img-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.hero-img {
+    max-height: 380px;
+    width: 100%;
+    max-width: 380px;
+    border-radius: 200px 200px 20px 20px; /* Borda em formato de arco */
+    object-fit: cover;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
+
+.btn-hero {
+    background-color: transparent;
+    color: #f8f6f0 !important;
+    border: 1px solid #f8f6f0;
+    padding: 10px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-hero:hover {
+    background-color: #f8f6f0;
+    color: #1f1a17 !important;
+}
+
+/* --- SEÇÃO DE CATEGORIAS --- */
+.categories-section {
+    background-color: #f8f6f0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #eae5db;
+}
+
+.section-title {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: #2c221e;
+    font-weight: 600;
+}
+
+.section-subtitle {
+    color: #7a7067;
+    font-size: 14px;
+}
+
+.category-card {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-icon-wrapper {
+    width: 70px;
+    height: 70px;
+    background-color: #ede7de;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+    transition: background-color 0.2s ease;
+}
+
+.category-card:hover .category-icon-wrapper {
+    background-color: #8c5830;
+}
+
+.category-icon {
+    font-size: 26px;
+}
+
+/* Quando passar o mouse, podemos mudar a cor do emoji/ícone se quiser, mas o fundo já destaca bastante */
+.category-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c221e;
+}
